@@ -28,8 +28,8 @@ Template repositories create independent new repositories, unlike forks: [GitHub
 1. Sign in at [chatgpt.com](https://chatgpt.com/). A paid plan is **not required** for the basic copy-and-paste tutoring workflow.
 2. Start a **new conversation** for a course. If you have access to model selection, GPT-6 is the author's tested choice; select a thinking setting as appropriate if available. Do not assume any model or plan has unlimited use.
 3. Open [Reusable Software Engineering Mentor](Learning%20System/Reusable%20Software%20Engineering%20Mentor.md) and paste it into the conversation as the first message. For a new course, let the mentor ask for the subject, run a brief diagnostic, and create an adaptive roadmap.
-4. **If your ChatGPT account offers a GitHub integration/plugin**, connect it from the available Plugins/apps settings, authorize *your own* repository and verify access by asking the assistant to read the README and your \`Learning Progress.md\`. A URL alone does not guarantee the assistant can read private repositories. Grant the smallest permissions you need.
-5. If GitHub access is unavailable, **paste or upload** the relevant \`Learning Progress.md\` and current handoff (or small code snippets) in the chat. Save generated notes back into your vault manually. Do not assume edits or GitHub commits happened without confirmation.
+4. **If your ChatGPT account offers a GitHub integration/plugin**, connect it from the available Plugins/apps settings, authorize *your own* repository and verify access by asking the assistant to read the README and your `Learning Progress.md`. A URL alone does not guarantee the assistant can read private repositories. Grant the smallest permissions you need.
+5. If GitHub access is unavailable, **paste or upload** the relevant `Learning Progress.md` and current handoff (or small code snippets) in the chat. Save generated notes back into your vault manually. Do not assume edits or GitHub commits happened without confirmation.
 6. Each time a lesson is **actually evaluated and completed**, have the mentor update the lesson note and progress record *if it has write access and you authorize it*, or supply copy-ready Markdown.
 7. Continue using the exact next unfinished exercise in the progress file. For a new chat, use the continuation prompt below.
 
@@ -41,13 +41,13 @@ Template repositories create independent new repositories, unlike forks: [GitHub
 
 1. Generate your own vault from the template, then **clone it** locally. Also clone your independent **application/project repository** if you have one.
 2. Open the relevant folder in the Codex desktop app, Codex IDE extension, or Codex CLI and sign in with your ChatGPT account where supported. Choose the client and installation instructions from the current [Codex documentation](https://developers.openai.com/codex/cli) and [Codex with ChatGPT plans](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan). Availability and permissions depend on your plan and environment.
-3. This template includes an [AGENTS.md](AGENTS.md) teaching contract for agents that support repository instructions. Codex discovers \`AGENTS.md\` in its working directory hierarchy. **If Codex is opened in a separate application repository, the vault's AGENTS.md is not automatically applied there.** Paste the reusable mentor prompt into that session or add an appropriate \`AGENTS.md\` to your own project.
+3. This template includes an [AGENTS.md](AGENTS.md) teaching contract for agents that support repository instructions. Codex discovers `AGENTS.md` in its working directory hierarchy. **If Codex is opened in a separate application repository, the vault's AGENTS.md is not automatically applied there.** Paste the reusable mentor prompt into that session or add an appropriate `AGENTS.md` to your own project.
 4. In the vault, request a **new-course diagnostic** or ask Codex to read your latest course progress and resume. When reviewing app code, give the app path/checkout and relevant commit. Confirm Codex can actually access them.
 5. **Learning mode:** the learner writes the code first. Codex should review code, explain failures, run non-destructive builds/tests with appropriate permissions, and provide hints. It should **not** implement the assignment or alter application source by default.
-6. After the learner's work is assessed, Codex may update the vault's Markdown files **when authorized**; inspect \`git diff\`, confirm evidence and avoid committing secrets. Have the learner decide when to push changes.
+6. After the learner's work is assessed, Codex may update the vault's Markdown files **when authorized**; inspect `git diff`, confirm evidence and avoid committing secrets. Have the learner decide when to push changes.
 7. If a test cannot run (missing SDK, dependencies, network access, database, platform features), say exactly why. Fall back to source review plus learner-executed commands. Never invent test results.
 
-**Optional hybrid workflow:** Use ChatGPT web for the teaching conversation and Codex for a targeted source review or test run. Paste the Codex findings, command output, and commit link back into the teaching chat; keep the same \`Learning Progress.md\` as the shared checkpoint. Avoid recording competing "master" progress in different chats.
+**Optional hybrid workflow:** Use ChatGPT web for the teaching conversation and Codex for a targeted source review or test run. Paste the Codex findings, command output, and commit link back into the teaching chat; keep the same `Learning Progress.md` as the shared checkpoint. Avoid recording competing "master" progress in different chats.
 
 ### Option C — no integration, no Codex, no Obsidian
 
@@ -61,7 +61,7 @@ Use an ordinary AI chat with the mentor prompt. Copy your most recent progress a
 
 **Resume an existing course:**
 
-> Resume my course using the current \`Learning Progress.md\`, course handoff, and any relevant project files/commit. Treat the progress tracker as authoritative. Ask only the exact next unfinished exercise and one short recall check if due. Review my own implementation before suggesting fixes. Record only evaluated results; don't assume you can write to GitHub or run my code unless you verify access.
+> Resume my course using the current `Learning Progress.md`, course handoff, and any relevant project files/commit. Treat the progress tracker as authoritative. Ask only the exact next unfinished exercise and one short recall check if due. Review my own implementation before suggesting fixes. Record only evaluated results; don't assume you can write to GitHub or run my code unless you verify access.
 
 **Codex verification request:**
 
@@ -69,24 +69,24 @@ Use an ordinary AI chat with the mentor prompt. Copy your most recent progress a
 
 ## 4. Normal study session
 
-\`\`\`text
+```text
 Read progress → spaced recall if due → one objective → learn
 → learner attempts → review actual evidence → fix/retest
 → record completed lesson → update review queue → resume later
-\`\`\`
+```
 
-The learning record is more important than the chat history: it allows the same course to continue in another chat or agent. Keep one authoritative \`Learning Progress.md\` per course, avoid writing duplicate status snapshots, and do not mistake a long prompt or a large commit count for mastered skills.
+The learning record is more important than the chat history: it allows the same course to continue in another chat or agent. Keep one authoritative `Learning Progress.md` per course, avoid writing duplicate status snapshots, and do not mistake a long prompt or a large commit count for mastered skills.
 
 ## 5. Setup troubleshooting
 
 | Symptom | What to do |
 | --- | --- |
 | AI cannot read a private repository | Verify authorization and repository access; otherwise paste/upload the needed files. |
-| AI says it updated notes but GitHub hasn't changed | Inspect the repository/commit or \`git status\`; do not assume persistence. |
+| AI says it updated notes but GitHub hasn't changed | Inspect the repository/commit or `git status`; do not assume persistence. |
 | Codex cannot run tests | Check the active workspace, runtime/SDK, test command, dependencies, database and permissions. Record limitation. |
 | New chat repeats the diagnostic | Supply the current progress and handoff; explicitly say "resume the unfinished task." |
-| Notes disagree across README/handoff/progress | Make \`Learning Progress.md\` authoritative. Use brief links from summaries. |
-| Local Obsidian notes appear stale after remote commits | In the local vault run \`git status\`, resolve local changes safely, then \`git pull --ff-only\`. Don't overwrite work. |
+| Notes disagree across README/handoff/progress | Make `Learning Progress.md` authoritative. Use brief links from summaries. |
+| Local Obsidian notes appear stale after remote commits | In the local vault run `git status`, resolve local changes safely, then `git pull --ff-only`. Don't overwrite work. |
 | ChatGPT or Codex says usage has run out | Review the application's displayed plan usage/reset information; no unlimited use is promised. |
 
 ## Official references
