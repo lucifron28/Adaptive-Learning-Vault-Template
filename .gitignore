@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Obsidian per-device state; share only intentional vault config
+.obsidian/workspace*
+.obsidian/cache/
+
+# Build and dependency artifacts (if coding experiments live alongside notes)
+node_modules/
+bin/
+obj/
+dist/
+build/
+coverage/
+__pycache__/
+.venv/
