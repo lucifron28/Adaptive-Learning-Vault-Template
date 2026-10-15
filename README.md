@@ -21,7 +21,7 @@ A **language-agnostic, evidence-driven learning system** built with plain Markdo
 | | **ChatGPT web (easiest)** | **Codex (code verification)** |
 | --- | --- | --- |
 | Best for | Concepts, interactive mentoring, explanations, diagnostics, retention | Reviewing actual repositories and diffs; running available builds/tests |
-| How it starts | Paste the mentor prompt into a chat, or use a ChatGPT Project | Open your checkout in a supported Codex client and use the included \`AGENTS.md\` / mentor prompt |
+| How it starts | Paste the mentor prompt into a chat, or use a ChatGPT Project | Open your checkout in a supported Codex client and use the included `AGENTS.md` / mentor prompt |
 | What it can verify | Reasoning and provided code; repo inspection when connected | Source and runtime behavior when access, dependencies and permissions allow |
 | Limitation | Cannot assume access to local files or running programs | Can over-solve assignments if not kept in learner-first mode |
 | Required? | No | No |
@@ -62,7 +62,7 @@ Possible implementations include Python, C#, Java, JavaScript, TypeScript, Go, R
 
 ## Repository layout
 
-\`\`\`text
+```text
 README.md                  One-minute overview and recommended paths
 SETUP.md                   Full setup: ChatGPT web, Codex, manual workflow
 AGENTS.md                  Short coding-agent learning rules
@@ -71,7 +71,7 @@ Courses/                   Add your own courses; no fake completed lessons
 Templates/                 Roadmap, lesson, progress, handoff, review and project log
 Examples/                  Clearly fictional assessed lesson example
 References/                Related projects and documentation
-\`\`\`
+```
 
 Read [Start Here](Learning%20System/START%20HERE.md) and the [Assessment Rubric](Learning%20System/Assessment%20Rubric.md) to understand what earns completion. New chats should resume from the course's **current Learning Progress** file.
 
