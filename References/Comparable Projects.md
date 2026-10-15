@@ -15,7 +15,7 @@ This repository is a **language-independent software engineering learning templa
 2. Make software-engineering pedagogy independent of ChatGPT/Codex product names.
 3. Include both **chat-first** and **code-verification** workflows, with tool-access boundaries.
 4. Put durable progress in Markdown so a new model, session, or tool can resume the same course.
-5. Keep coding-agent instructions in a short \`AGENTS.md\`; don't force a huge checklist before every tiny task.
+5. Keep coding-agent instructions in a short `AGENTS.md`; don't force a huge checklist before every tiny task.
 6. Do not call any tool or plan unlimited, and don't assume an agent can execute code just because it can review it.
 
 ## Product references (October 2026)
