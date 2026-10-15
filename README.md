@@ -70,7 +70,6 @@ Learning System/           Mentor prompt, progress rules, workflow, Project inst
 Courses/                   Add your own courses; no fake completed lessons
 Templates/                 Roadmap, lesson, progress, handoff, review and project log
 Examples/                  Clearly fictional assessed lesson example
-References/                Related projects and documentation
 ```
 
 Read [Start Here](Learning%20System/START%20HERE.md) and the [Assessment Rubric](Learning%20System/Assessment%20Rubric.md) to understand what earns completion. New chats should resume from the course's **current Learning Progress** file.
@@ -82,10 +81,6 @@ Read [Start Here](Learning%20System/START%20HERE.md) and the [Assessment Rubric]
 **Codex mode:** inspect *your* attempt → execute non-destructive checks when available → report failures and give hints → **you correct the code** → record evidence. It should not write an exercise solution unless you ask explicitly. The root [AGENTS.md](AGENTS.md) sets that behavior for coding agents that load repository instructions.
 
 You can also combine modes: use regular ChatGPT for mentoring and Codex for targeted verification, sharing reviewed commit links and test output back to your course's one authoritative progress file.
-
-## Related projects and source inspiration
-
-The [comparison notes](References/Comparable%20Projects.md) cover TutorVault, agent-tutor, Personal AI Teacher, LessonLab, and the official product documentation that informed the setup.
 
 ## Rules and privacy
 
