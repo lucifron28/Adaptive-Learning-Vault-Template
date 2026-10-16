@@ -8,6 +8,7 @@
 ## Current checkpoint
 
 **Next unfinished task:** <Exact question/exercise; what is needed for completion>
+**Current project milestone:** <Next working behavior, or not applicable yet>
 
 ## Completed and evaluated lessons
 
@@ -21,6 +22,9 @@
 
 ## Next project increment
 
+**Learner-chosen project:** <Real problem and intended users; or pending diagnostic>
+**Milestone:** <One small observable behavior>
+**Supporting prerequisites/drills:** <Skills that unlock it>
 **Repository / commit:** <Link or none>
 **Acceptance criteria:** <Observable behavior>
 **Verification:** <Not run / learner-reported / reviewer-run>
