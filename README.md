@@ -4,7 +4,9 @@
 
 A **language-agnostic, evidence-driven learning system** built with plain Markdown. Study programming, frontend, backend, databases, algorithms, architecture, testing, security, or DevOps in **your chosen language and stack**.
 
-> **Learning loop:** Diagnose → Learn → Attempt → Review → Correct → Apply → Recall → Record.
+> **Learning loop:** Diagnose → Learn → Attempt → Review → Correct → Apply to a real project → Recall → Record.
+
+**Project-based by design:** small exercises teach the prerequisites for small, independently implemented features. Over time those features form a working application or other useful software artifact. See [Project-Based Learning](Learning%20System/Project-Based%20Learning.md).
 
 **Start here:** [Full setup guide](SETUP.md) · [Mentor prompt](Learning%20System/Reusable%20Software%20Engineering%20Mentor.md) · [Course workflow](Learning%20System/START%20HERE.md)
 
@@ -12,7 +14,7 @@ A **language-agnostic, evidence-driven learning system** built with plain Markdo
 
 1. Click **Use this template → Create a new repository** (when enabled by the owner). Make **your own vault private** if you will store personal learning records, project details or private links. Otherwise download/clone the files.
 2. Choose a learning mode below. For the simplest path, copy the [mentor prompt](Learning%20System/Reusable%20Software%20Engineering%20Mentor.md) into a new AI chat.
-3. Tell the mentor what area of software engineering you want to learn. Start with a **short diagnostic**, build an adaptive roadmap, and attempt exercises yourself. Only evaluated work is recorded as completed.
+3. Tell the mentor what area of software engineering you want to learn. After a **short diagnostic**, build an adaptive roadmap and choose a **small cumulative project** suited to your goals. Attempt exercises yourself and progressively apply them to project increments. Only evaluated work is recorded as completed.
 
 **No purchase, Obsidian installation, GitHub connector, or coding agent is required** for the basic copy-and-paste learning workflow. GitHub and Obsidian make the notes easier to persist and navigate, but Markdown files remain portable.
 
@@ -38,10 +40,24 @@ A **language-agnostic, evidence-driven learning system** built with plain Markdo
 - **One focused exercise at a time** with the learner's own attempt before any solution.
 - Coding, reasoning, debugging, tests, and design tradeoffs assessed independently.
 - **Recognized → Guided → Independent → Retained** evidence levels; no automatic mastery from exposure.
-- A **small evolving project** rather than a large AI-generated scaffold.
+- **Project-based learning:** targeted exercises build the skills for **small working features** in an evolving learner-owned project—not a large AI-generated scaffold.
 - Review of *actual* repository changes when available, with honest distinctions among source review, learner-run output, and independently executed tests.
 - Spaced recall and transparent documentation of mistakes, corrections and subsequent progress.
 - Durable files that can be reused across ChatGPT chats, Codex, and other capable tools.
+
+## From a small exercise to a real project
+
+Instead of learning syntax in isolation for months, the mentor connects relevant drills to an incremental project:
+
+| Learn and practice | Apply to the growing project |
+| --- | --- |
+| Collections and functions | Implement one useful command or behavior |
+| Input validation and errors | Handle invalid inputs safely |
+| Persistence concepts | Keep data across runs, if the project needs it |
+| Testing and debugging | Add regression checks for implemented behavior |
+| UI, API or deployment (when relevant) | Make the working functionality useful to others |
+
+The learner **chooses the project and writes its code**. Not every concept has to become a feature immediately; standalone drills and conceptual exercises still matter. The goal is to return regularly to working software, with each increment reviewed and verified. [Read the full project-based workflow](Learning%20System/Project-Based%20Learning.md).
 
 ## What can I study?
 
@@ -66,7 +82,7 @@ Possible implementations include Python, C#, Java, JavaScript, TypeScript, Go, R
 README.md                  One-minute overview and recommended paths
 SETUP.md                   Full setup: ChatGPT web, Codex, manual workflow
 AGENTS.md                  Short coding-agent learning rules
-Learning System/           Mentor prompt, progress rules, workflow, Project instructions
+Learning System/           Mentor prompt, project-based learning, progress rules, workflow
 Courses/                   Add your own courses; no fake completed lessons
 Templates/                 Roadmap, lesson, progress, handoff, review and project log
 Examples/                  Clearly fictional assessed lesson example
