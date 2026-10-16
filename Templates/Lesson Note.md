@@ -8,6 +8,8 @@ tags: [learning, software-engineering]
 # Lesson NNN — <Topic>
 
 **Objective:** <One measurable skill>
+**Exercise type:** <Concept/recall | Focused drill | Project increment | Milestone review>
+**Project connection:** <What this prepares for or delivered; "Not directly applicable" is valid>
 **Next:** <Exact next unfinished exercise>
 
 ## Concept and relevance
@@ -24,6 +26,7 @@ tags: [learning, software-engineering]
 
 ## Project application
 
+**Milestone / feature:** <Planned prerequisite or new working behavior>
 **Repository and commit:** <If applicable>
 **Tests:** <What was run, who ran it, and exact scope>
 **Assessment:** <Recognized / Guided / Independent / Retained>
