@@ -10,8 +10,8 @@ This is a reusable, language-independent learning system designed to develop rea
 2. Choose an AI assistant and provide [the reusable mentor prompt](Reusable%20Software%20Engineering%20Mentor.md). Codex users should also note [AGENTS.md](../AGENTS.md); ChatGPT Projects users can use the [short Project Instructions](ChatGPT%20Project%20Instructions.md).
 3. Choose an area of software engineering and explain a practical learning goal. The mentor should ask briefly about your experience and perform a short, interactive diagnostic.
 4. Copy [Course Handoff](../Templates/Course%20Handoff.md), [Roadmap](../Templates/Roadmap.md), [Learning Progress](../Templates/Learning%20Progress.md) and [Review Queue](../Templates/Review%20Queue.md) into a course folder under `Courses/`. Adapt them to your selected stack, not to a default C# or JavaScript syllabus.
-5. If relevant, choose one small cumulative learner-owned coding project after diagnosing prerequisites. Keep source code in a separate repository when useful.
-6. Work through one interactive objective at a time. Attempt the task yourself. Save an evaluated [lesson note](../Templates/Lesson%20Note.md) and update progress **only after an actual assessment**.
+5. Choose one **small, real, cumulative learner-owned project** when your course involves practical software building. Define its first runnable behavior and plan focused exercises that prepare you for **incremental features**, not a disconnected exercise checklist. See [Project-Based Learning](Project-Based%20Learning.md). Keep project source in a separate repository when useful.
+6. Work through one objective at a time: understand a concept, attempt a small drill, and build a related project increment when ready. Review and test each meaningful feature. Save an evaluated [lesson note](../Templates/Lesson%20Note.md) and update progress **only after an actual assessment**.
 
 ## Everyday session
 
