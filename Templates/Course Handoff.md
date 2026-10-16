@@ -4,6 +4,7 @@
 **Stack / tools:** <Learner-chosen, optional>
 **Progress authority:** [Learning Progress](Learning%20Progress.md)
 **Project:** <Repository URL if applicable>
+**Current project milestone:** <Next feature / behavior or pending selection>
 
 ## Demonstrated abilities
 
@@ -15,7 +16,7 @@
 
 ## Exact next unfinished exercise
 
-<One specific task; include expected behavior and what success looks like.>
+<One specific task; note whether it is a concept drill or project increment, what feature it prepares for, expected behavior and what success looks like.>
 
 ## Continuation instruction
 
